@@ -111,11 +111,21 @@
     background-color: gray;
     text-align: center;
   }
+
 .events_categories{
     display: flex;
     gap: 30px;
     justify-content: center;
     
+}
+.events_categories .category-card {
+  width: 270px;
+}
+.events_categories .category-card h2 {
+  background-color: #e46a9d;
+  text-align: center;
+  padding: 5px 10px;
+  color: white;
 }
 .events_categories ul{
     background-color: rgba(0,0,0,0.2);
